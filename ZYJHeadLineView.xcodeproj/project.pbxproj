@@ -13,6 +13,8 @@
 		18A76B491E078B870088197A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A76B471E078B870088197A /* Main.storyboard */; };
 		18A76B4B1E078B870088197A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A76B4A1E078B870088197A /* Assets.xcassets */; };
 		18A76B4E1E078B870088197A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A76B4C1E078B870088197A /* LaunchScreen.storyboard */; };
+		18A76B571E078C340088197A /* HeadLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A76B561E078C340088197A /* HeadLineView.m */; };
+		18A76B5A1E078C630088197A /* ZYJHeadLineModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A76B591E078C630088197A /* ZYJHeadLineModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18A76B4A1E078B870088197A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A76B4D1E078B870088197A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A76B4F1E078B870088197A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A76B551E078C340088197A /* HeadLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeadLineView.h; sourceTree = "<group>"; };
+		18A76B561E078C340088197A /* HeadLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeadLineView.m; sourceTree = "<group>"; };
+		18A76B581E078C630088197A /* ZYJHeadLineModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZYJHeadLineModel.h; sourceTree = "<group>"; };
+		18A76B591E078C630088197A /* ZYJHeadLineModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZYJHeadLineModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				18A76B421E078B870088197A /* AppDelegate.m */,
 				18A76B441E078B870088197A /* ViewController.h */,
 				18A76B451E078B870088197A /* ViewController.m */,
+				18A76B551E078C340088197A /* HeadLineView.h */,
+				18A76B561E078C340088197A /* HeadLineView.m */,
+				18A76B581E078C630088197A /* ZYJHeadLineModel.h */,
+				18A76B591E078C630088197A /* ZYJHeadLineModel.m */,
 				18A76B471E078B870088197A /* Main.storyboard */,
 				18A76B4A1E078B870088197A /* Assets.xcassets */,
 				18A76B4C1E078B870088197A /* LaunchScreen.storyboard */,
@@ -110,6 +120,7 @@
 				TargetAttributes = {
 					18A76B3A1E078B870088197A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = E43ZJM452G;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -152,6 +163,8 @@
 			files = (
 				18A76B461E078B870088197A /* ViewController.m in Sources */,
 				18A76B431E078B870088197A /* AppDelegate.m in Sources */,
+				18A76B5A1E078C630088197A /* ZYJHeadLineModel.m in Sources */,
+				18A76B571E078C340088197A /* HeadLineView.m in Sources */,
 				18A76B401E078B870088197A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +283,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E43ZJM452G;
 				INFOPLIST_FILE = ZYJHeadLineView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.ZYJHeadLineView";
@@ -281,6 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E43ZJM452G;
 				INFOPLIST_FILE = ZYJHeadLineView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "---.ZYJHeadLineView";
@@ -307,6 +322,7 @@
 				18A76B541E078B870088197A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
